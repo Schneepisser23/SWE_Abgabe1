@@ -1,0 +1,16 @@
+{
+    "titel": "Testt",
+    "rating": 5,
+    "art": "KINDLE",
+    "verlag": "IWI_VERLAG",
+    "preis": 9999,
+    "rabatt": 99,
+    "lieferbar": true,
+    "datum": "2017-02-01T00:00:00.000Z",
+    "email": "testtt@test.de",
+    "homepage": "https://test.de/",
+    "schlagwoerter": [
+        "JAVASCRIPT",
+        "TYPESCRIPT"
+    ]
+}

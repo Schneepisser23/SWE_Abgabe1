@@ -1,0 +1,60 @@
+[
+    {
+        "_id": "20000000-0000-0000-0000-000000000001",
+        "username": "admin",
+        "password": "$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO",
+        "email": "admin@hska.de",
+        "roles": [
+            "admin",
+            "mitarbeiter",
+            "abteilungsleiter",
+            "kunde"
+        ]
+    },
+    {
+        "_id": "20000000-0000-0000-0000-000000000002",
+        "username": "adriana.alpha",
+        "password": "$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO",
+        "email": "adriana.alpha@hska.de",
+        "roles": [
+            "admin",
+            "mitarbeiter",
+            "kunde"
+        ]
+    },
+    {
+        "_id": "20000000-0000-0000-0000-000000000003",
+        "username": "alfred.alpha",
+        "password": "$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO",
+        "email": "alfred.alpha@hska.de",
+        "roles": [
+            "mitarbeiter",
+            "kunde"
+        ]
+    },
+    {
+        "_id": "20000000-0000-0000-0000-000000000004",
+        "username": "anton.alpha",
+        "password": "$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO",
+        "email": "anton.alpha@hska.de",
+        "roles": [
+            "mitarbeiter",
+            "kunde"
+        ]
+    },
+    {
+        "_id": "20000000-0000-0000-0000-000000000005",
+        "username": "dirk.delta",
+        "password": "$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO",
+        "email": "dirk.delta@hska.de",
+        "roles": [
+            "kunde"
+        ]
+    },
+    {
+        "_id": "20000000-0000-0000-0000-000000000006",
+        "username": "emil.epsilon",
+        "password": "$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO",
+        "email": "emil.epsilon@hska.de"
+    }
+]

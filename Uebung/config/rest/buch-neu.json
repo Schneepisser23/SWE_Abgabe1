@@ -1,0 +1,22 @@
+{
+    "titel": "Test",
+    "rating": 1,
+    "art": "KINDLE",
+    "verlag": "IWI_VERLAG",
+    "preis": 99.90,
+    "rabatt": 1,
+    "lieferbar": true,
+    "datum": "2017-02-01T00:00:00.000Z",
+    "email": "test@test.de",
+    "homepage": "https://test.de/",
+    "schlagwoerter": [
+        "JAVASCRIPT",
+        "TYPESCRIPT"
+    ],
+    "autoren": [
+        {
+            "vorname": "Theo",
+            "nachname": "Test"
+        }
+    ]
+}

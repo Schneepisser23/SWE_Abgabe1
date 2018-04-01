@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522579331557' stop='1522579332018'>
+    <name>PUT /buecher/:id</name>
+    <title>PUT /buecher/:id</title>
+    <test-cases>
+        <test-case start='1522579331919' status='passed' stop='1522579331972'>
+            <name>Vorhandenes Buch aendern</name>
+            <title>Vorhandenes Buch aendern</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1522579331973' status='passed' stop='1522579331997'>
+            <name>Nicht-vorhandenes Buch aendern</name>
+            <title>Nicht-vorhandenes Buch aendern</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1522579331997' status='passed' stop='1522579332006'>
+            <name>Vorhandenes Buch aendern, aber mit ungueltigen Daten</name>
+            <title>Vorhandenes Buch aendern, aber mit ungueltigen Daten</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1522579332006' status='passed' stop='1522579332013'>
+            <name>Vorhandenes Buch aendern, aber ohne Token</name>
+            <title>Vorhandenes Buch aendern, aber ohne Token</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1522579332013' status='passed' stop='1522579332017'>
+            <name>Vorhandenes Buch aendern, aber mit falschem Token</name>
+            <title>Vorhandenes Buch aendern, aber mit falschem Token</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

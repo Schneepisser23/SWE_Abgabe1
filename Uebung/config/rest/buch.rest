@@ -1,0 +1,90 @@
+###
+### N e t z w e r k   -  V e r b i n d u n g   n o t w e n d i g
+###
+
+@token = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjExNDM2MDAsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYTcwMzEzNGEtYTVmOS00NWM2LWFiMjUtYWFkZGYzYzYyNDIxIiwiZXhwIjoxNTIxMjMwMDAwfQ.U0MPNBtUX_6l8sPPU2iREVcQvdnq-NShs2zvNiUYER8Nj3ZJ5Qgvsde2U2D6xmIsW8rzR4ngvwe-kswJVMtbLzty6IuUTcVOmnpEGUElrBiAVihMOQB7Kpr0ijBlAVqLWAxHU3D-VYdB841-B5bP5H6P4FsbXNtktdYqnP5e9B6vbSCb1nSIdq-mOaEopvOQi8UDYca2b98jt4CI-akAjTJ-Z7Stq3WAuv8GXCvM4gqrOAPY4dDp4QgluYv52qb3yZNQKTIVINopowYEPBEVNdkZE90Z3fKAmNisTX-Qu5w6W0a31Kn0gH8bAuuYpvlKNuDn_rccE5OTjjU61bBLtQ
+@host = 127.0.0.1:8443
+
+### Login
+POST https://{{host}}/login
+Content-Type: application/x-www-form-urlencoded
+
+username=admin&password=p
+
+### Suche alle Buecher
+https://{{host}}/buecher
+
+### Suche mit vorhandener Buch-ID
+https://{{host}}/buecher/00000000-0000-0000-0000-000000000001
+
+### Suche mit vorhandener Buch-ID und Versionsnummer
+https://{{host}}/buecher/00000000-0000-0000-0000-000000000001
+If-None-Match: 0
+
+### Optionen zu Buch-ID
+OPTIONS https://{{host}}/buecher/00000000-0000-0000-0000-000000000001
+
+### Suche mit ungueltiger Buch-ID
+https://{{host}}/buecher/YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY
+
+### Suche mit nicht-vorhandener Buch-ID
+https://{{host}}/buecher/99999999-9999-9999-9999-999999999999
+
+### Suche mit vorhandenem Titel
+https://{{host}}/buecher?titel=a
+
+### Suche mit vorhandener Email
+https://{{host}}/buecher?email=alpha%40hska.at
+
+### Suche mit vorhandenen Schlagwoertern
+https://{{host}}/buecher?javascript=true&typescript=true
+
+### Suche mit gueltiger Buchart
+https://{{host}}/buecher?art=KINDLE
+
+### Suche mit gueltigem Rating
+https://{{host}}/buecher?rating=1
+
+### Suche lieferbare Buecher
+https://{{host}}/buecher?lieferbar=true
+
+### Neues Buch anlegen
+POST https://{{host}}/buecher
+Content-Type: application/json
+Authorization: {{token}}
+
+< ./buch-neu.json
+
+### Neues Buch mit ungueltigen Daten anlegen
+POST https://{{host}}/buecher
+Content-Type: application/json
+Authorization: {{token}}
+
+< ./config/rest/buch-neu-invalid.json
+
+### Vorhandenes Buch aktualisieren
+PUT https://{{host}}/buecher/00000000-0000-0000-0000-000000000003
+Content-Type: application/json
+Authorization: {{token}}
+If-Match: 0
+
+< ./config/rest/buch-3-put.json
+
+### Vorhandenes Buch *OHNE* Versionsnummer aktualisieren
+PUT https://{{host}}/buecher/00000000-0000-0000-0000-000000000003
+Content-Type: application/json
+Authorization: {{token}}
+
+< ./config/rest/buch-3-put.json
+
+### Vorhandenes Buch mit ungueltigen Daten aktualisieren
+PUT https://{{host}}/buecher/00000000-0000-0000-0000-000000000003
+Content-Type: application/json
+Authorization: {{token}}
+If-Match: 0
+
+< ./config/rest/buch-3-put-invalid.json
+
+### Loeschen eines vorhandenen Buches
+DELETE https://{{host}}/buecher/00000000-0000-0000-0000-000000000005
+Authorization: {{token}}

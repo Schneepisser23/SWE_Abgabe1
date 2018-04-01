@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522579331070' stop='1522579331555'>
+    <name>POST /buecher</name>
+    <title>POST /buecher</title>
+    <test-cases>
+        <test-case start='1522579331478' status='passed' stop='1522579331525'>
+            <name>Neues Buch</name>
+            <title>Neues Buch</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1522579331526' status='passed' stop='1522579331534'>
+            <name>Neues Buch mit ungueltigen Daten</name>
+            <title>Neues Buch mit ungueltigen Daten</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1522579331534' status='passed' stop='1522579331544'>
+            <name>Neues Buch, aber der Titel existiert bereits</name>
+            <title>Neues Buch, aber der Titel existiert bereits</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1522579331545' status='passed' stop='1522579331550'>
+            <name>Neues Buch, aber ohne Token</name>
+            <title>Neues Buch, aber ohne Token</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1522579331550' status='passed' stop='1522579331554'>
+            <name>Neues Buch, aber mit falschem Token</name>
+            <title>Neues Buch, aber mit falschem Token</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

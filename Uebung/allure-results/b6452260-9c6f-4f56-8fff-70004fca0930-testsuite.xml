@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522579332020' stop='1522579332404'>
+    <name>DELETE /buecher</name>
+    <title>DELETE /buecher</title>
+    <test-cases>
+        <test-case start='1522579332378' status='passed' stop='1522579332390'>
+            <name>Vorhandenes Buch loeschen</name>
+            <title>Vorhandenes Buch loeschen</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1522579332393' status='passed' stop='1522579332399'>
+            <name>Buch loeschen, aber ohne Token</name>
+            <title>Buch loeschen, aber ohne Token</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1522579332399' status='passed' stop='1522579332404'>
+            <name>Buch loeschen, aber mit falschem Token</name>
+            <title>Buch loeschen, aber mit falschem Token</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

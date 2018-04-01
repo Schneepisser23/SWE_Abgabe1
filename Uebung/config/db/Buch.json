@@ -1,0 +1,128 @@
+{
+    "_id": "00000000-0000-0000-0000-000000000001",
+    "titel": "Alpha",
+    "rating": 4,
+    "art": "DRUCKAUSGABE",
+    "verlag": "IWI_VERLAG",
+    "preis": 11.1,
+    "rabatt": 0.011,
+    "lieferbar": true,
+    "datum": ISODate("2018-02-01T00:00:00.000Z"),
+    "email": "alpha@hska.at",
+    "homepage": "https://hska.at/",
+    "schlagwoerter": [
+        "JAVASCRIPT"
+    ],
+    "autoren": [
+		{
+			"nachname": "Alpha",
+			"vorname": "Adriana"
+		},
+		{
+			"nachname": "Alpha",
+			"vorname": "Alfred"
+		}
+	],
+    "__v": 0,
+    "erzeugt": ISODate("2018-02-01T00:00:00.000Z"),
+    "aktualisiert": ISODate("2018-02-01T00:00:00.000Z")
+}
+{
+    "_id": "00000000-0000-0000-0000-000000000002",
+    "titel": "Beta",
+    "rating": 2,
+    "art": "KINDLE",
+    "verlag": "HSKA_VERLAG",
+    "preis": 22.2,
+    "rabatt": 0.022,
+    "lieferbar": true,
+    "datum": ISODate("2018-02-02T00:00:00.000Z"),
+    "email": "beta@hska.biz",
+    "homepage": "https://hska.biz/",
+    "schlagwoerter": [
+        "TYPESCRIPT"
+    ],
+    "autoren": [
+		{
+			"nachname": "Beta",
+			"vorname": "Brunhilde"
+		}
+	],
+    "__v": 0,
+    "erzeugt": ISODate("2018-02-01T00:00:00.000Z"),
+    "aktualisiert": ISODate("2018-02-01T00:00:00.000Z")
+}
+{
+    "_id": "00000000-0000-0000-0000-000000000003",
+    "titel": "Gamma",
+    "rating": 1,
+    "art": "DRUCKAUSGABE",
+    "verlag": "HSKA_VERLAG",
+    "preis": 33.3,
+    "rabatt": 0.033,
+    "lieferbar": true,
+    "datum": ISODate("2018-02-03T00:00:00.000Z"),
+    "email": "gamma@hska.com",
+    "homepage": "https://hska.com/",
+    "schlagwoerter": [
+        "JAVASCRIPT",
+        "TYPESCRIPT"
+    ],
+    "autoren":  [
+		{
+			"nachname": "Gamma",
+			"vorname": "Claus"
+		}
+	],
+    "__v": 0,
+    "erzeugt": ISODate("2018-02-01T00:00:00.000Z"),
+    "aktualisiert": ISODate("2018-02-01T00:00:00.000Z")
+}
+{
+    "_id": "00000000-0000-0000-0000-000000000004",
+    "titel": "Delta",
+    "rating": 3,
+    "art": "DRUCKAUSGABE",
+    "verlag": "IWI_VERLAG",
+    "preis": 44.4,
+    "rabatt": 0.044,
+    "lieferbar": true,
+    "datum": ISODate("2018-02-04T00:00:00.000Z"),
+    "email": "delta@hska.de",
+    "homepage": "https://hska.de/",
+    "schlagwoerter": [],
+    "autoren": [
+		{
+			"nachname": "Delta",
+			"vorname": "Dieter"
+		}
+	],
+    "__v": 0,
+    "erzeugt": ISODate("2018-02-01T00:00:00.000Z"),
+    "aktualisiert": ISODate("2018-02-01T00:00:00.000Z")
+}
+{
+    "_id": "00000000-0000-0000-0000-000000000005",
+    "titel": "Epsilon",
+    "rating": 2,
+    "art": "KINDLE",
+    "verlag": "HSKA_VERLAG",
+    "preis": 55.5,
+    "rabatt": 0.055,
+    "lieferbar": true,
+    "datum": ISODate("2018-02-05T00:00:00.000Z"),
+    "email": "epsilon@hska.es",
+    "homepage": "https://hska.es/",
+    "schlagwoerter": [
+        "TYPESCRIPT"
+    ],
+    "autoren": [
+		{
+			"nachname": "Epsilon",
+			"vorname": "Elfriede"
+		}
+	],
+    "__v": 0,
+    "erzeugt": ISODate("2018-02-01T00:00:00.000Z"),
+    "aktualisiert": ISODate("2018-02-01T00:00:00.000Z")
+}

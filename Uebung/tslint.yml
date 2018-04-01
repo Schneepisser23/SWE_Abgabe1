@@ -1,0 +1,73 @@
+---
+extends:
+  - tslint:recommended
+defaultSeverity: error
+
+rules:
+  align:
+    options:
+      - parameters
+      - arguments
+      - statements
+  array-type:
+    options: generic
+  arrow-parens: false
+  ban-comma-operator: true
+  encoding: true
+  interface-name: false
+  linebreak-style:
+    options: CRLF
+  max-file-line-count:
+    options: 300
+  member-access:
+    options: no-public
+  member-ordering:
+    options:
+      - order:
+          - public-static-field
+          - private-static-field
+          - public-instance-field
+          - private-instance-field
+          - public-constructor
+          - public-instance-method
+          - protected-instance-method
+          - private-instance-method
+  no-angle-bracket-type-assertion: true
+  no-console: false
+  no-duplicate-imports: true
+  no-duplicate-switch-case: true
+  no-null-keyword: true
+  no-invalid-template-strings: true
+  no-irregular-whitespace: true
+  no-parameter-reassignment: true
+  no-redundant-jsdoc: true
+  no-require-imports: true
+  no-return-await: true
+  no-sparse-arrays: true
+  no-this-assignment: true
+  no-unnecessary-class: true
+  no-unnecessary-type-assertion: true
+  number-literal-format: true
+  object-literal-key-quotes:
+    options: as-needed
+  object-literal-sort-keys: false
+  ordered-imports:
+    options:
+      grouped-imports: true
+  prefer-conditional-expression: true
+  prefer-object-spread: true
+  prefer-template: true
+  quotemark:
+    options: single
+  return-undefined: true
+  semicolon:
+    options: never
+  space-within-parens:
+    options: 0
+  strict-boolean-expressions: true
+  triple-equals: true
+  use-default-type-parameter: true
+  variable-name:
+    options:
+      - ban-keywords
+      - check-format

@@ -1,0 +1,765 @@
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-04-01T10:42:07.012Z"}
+debug: Upload-Verzeichnis: C:\Users\Bempfer\SWE\swaanka\temp\upload {"timestamp":"2018-04-01T10:42:07.014Z"}
+debug: Download-Verzeichnis: C:\Users\Bempfer\SWE\swaanka\temp\download {"timestamp":"2018-04-01T10:42:07.014Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-04-01T10:42:07.836Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg>C {"timestamp":"2018-04-01T10:42:07.845Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-04-01T10:42:10.411Z"}
+debug: Upload-Verzeichnis: C:\Users\Bempfer\SWE\swaanka\temp\upload {"timestamp":"2018-04-01T10:42:10.414Z"}
+debug: Download-Verzeichnis: C:\Users\Bempfer\SWE\swaanka\temp\download {"timestamp":"2018-04-01T10:42:10.414Z"}
+info: Node v9.8.0 {"timestamp":"2018-04-01T10:42:10.878Z"}
+info: Testserver ist gestartet: http://localhost:54783 {"timestamp":"2018-04-01T10:42:10.878Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:10.895Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:10.895Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:10.895Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:10.895Z"}
+debug: > BuchRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:10.903Z"}
+debug: BuchRequestHandler.find queryParams = {} {"timestamp":"2018-04-01T10:42:10.903Z"}
+debug: > BuchService.find(): args = [{}] {"timestamp":"2018-04-01T10:42:10.903Z"}
+debug: < BuchService.find(): result = {} {"timestamp":"2018-04-01T10:42:10.905Z"}
+debug: < BuchRequestHandler.find(): result = {} {"timestamp":"2018-04-01T10:42:10.905Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:10.905Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-04-01T10:42:10.947Z"}
+debug: BuchRequestHandler.find: buecher = [{"schlagwoerter":["JAVASCRIPT"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"DRUCKAUSGABE","verlag":"IWI_VERLAG","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2018-02-01T00:00:00.000Z","email":"alpha@hska.at","homepage":"https://hska.at/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"},{"schlagwoerter":["TYPESCRIPT"],"autoren":[{"nachname":"Beta","vorname":"Brunhilde"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Beta","rating":2,"art":"KINDLE","verlag":"HSKA_VERLAG","preis":22.2,"rabatt":0.022,"lieferbar":true,"datum":"2018-02-02T00:00:00.000Z","email":"beta@hska.biz","homepage":"https://hska.biz/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"},{"schlagwoerter":[],"autoren":[{"nachname":"Delta","vorname":"Dieter"}],"_id":"00000000-0000-0000-0000-000000000004","titel":"Delta","rating":3,"art":"DRUCKAUSGABE","verlag":"IWI_VERLAG","preis":44.4,"rabatt":0.044,"lieferbar":true,"datum":"2018-02-04T00:00:00.000Z","email":"delta@hska.de","homepage":"https://hska.de/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"},{"schlagwoerter":["TYPESCRIPT"],"autoren":[{"nachname":"Epsilon","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Epsilon","rating":2,"art":"KINDLE","verlag":"HSKA_VERLAG","preis":55.5,"rabatt":0.055,"lieferbar":true,"datum":"2018-02-05T00:00:00.000Z","email":"epsilon@hska.es","homepage":"https://hska.es/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"},{"schlagwoerter":["JAVASCRIPT","TYPESCRIPT"],"autoren":[{"nachname":"Gamma","vorname":"Claus"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Gamma","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2018-02-03T00:00:00.000Z","email":"gamma@hska.com","homepage":"https://hska.com/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"}] {"timestamp":"2018-04-01T10:42:10.962Z"}
+debug: Response time: 73.399779 ms {"timestamp":"2018-04-01T10:42:10.968Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:10.995Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:10.995Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:10.995Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:10.996Z"}
+debug: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:10.998Z"}
+debug: > BuchRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:10.999Z"}
+debug: BuchRequestHandler.findById id = 00000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:10.999Z"}
+debug: > BuchService.findById(): args = ["00000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:10.999Z"}
+debug: < BuchService.findById(): result = {} {"timestamp":"2018-04-01T10:42:11.000Z"}
+debug: < BuchRequestHandler.findById(): result = {} {"timestamp":"2018-04-01T10:42:11.000Z"}
+debug: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.000Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.000Z"}
+debug: BuchRequestHandler.findById (): buch = {"schlagwoerter":["JAVASCRIPT"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"DRUCKAUSGABE","verlag":"IWI_VERLAG","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2018-02-01T00:00:00.000Z","email":"alpha@hska.at","homepage":"https://hska.at/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"} {"timestamp":"2018-04-01T10:42:11.008Z"}
+debug: BuchRequestHandler.findById VersionDb = 0 {"timestamp":"2018-04-01T10:42:11.008Z"}
+debug: Response time: 13.375129999999999 ms {"timestamp":"2018-04-01T10:42:11.009Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.013Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.013Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.013Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.013Z"}
+debug: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.015Z"}
+debug: > BuchRequestHandler.findById(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.015Z"}
+debug: BuchRequestHandler.findById id = 00000000-0000-0000-0000-000000000999 {"timestamp":"2018-04-01T10:42:11.015Z"}
+debug: > BuchService.findById(): args = ["00000000-0000-0000-0000-000000000999"] {"timestamp":"2018-04-01T10:42:11.015Z"}
+debug: < BuchService.findById(): result = {} {"timestamp":"2018-04-01T10:42:11.015Z"}
+debug: < BuchRequestHandler.findById(): result = {} {"timestamp":"2018-04-01T10:42:11.015Z"}
+debug: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.015Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.015Z"}
+debug: BuchRequestHandler.findById status = 404 {"timestamp":"2018-04-01T10:42:11.017Z"}
+debug: Response time: 4.2472769999999995 ms {"timestamp":"2018-04-01T10:42:11.017Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.027Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.027Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.027Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.027Z"}
+debug: > BuchRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.030Z"}
+debug: BuchRequestHandler.find queryParams = {"titel":"a"} {"timestamp":"2018-04-01T10:42:11.030Z"}
+debug: > BuchService.find(): args = [{"titel":"a"}] {"timestamp":"2018-04-01T10:42:11.030Z"}
+debug: < BuchService.find(): result = {} {"timestamp":"2018-04-01T10:42:11.031Z"}
+debug: < BuchRequestHandler.find(): result = {} {"timestamp":"2018-04-01T10:42:11.031Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.031Z"}
+debug: BuchRequestHandler.find: buecher = [{"schlagwoerter":["JAVASCRIPT"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"DRUCKAUSGABE","verlag":"IWI_VERLAG","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2018-02-01T00:00:00.000Z","email":"alpha@hska.at","homepage":"https://hska.at/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"},{"schlagwoerter":["TYPESCRIPT"],"autoren":[{"nachname":"Beta","vorname":"Brunhilde"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Beta","rating":2,"art":"KINDLE","verlag":"HSKA_VERLAG","preis":22.2,"rabatt":0.022,"lieferbar":true,"datum":"2018-02-02T00:00:00.000Z","email":"beta@hska.biz","homepage":"https://hska.biz/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"},{"schlagwoerter":[],"autoren":[{"nachname":"Delta","vorname":"Dieter"}],"_id":"00000000-0000-0000-0000-000000000004","titel":"Delta","rating":3,"art":"DRUCKAUSGABE","verlag":"IWI_VERLAG","preis":44.4,"rabatt":0.044,"lieferbar":true,"datum":"2018-02-04T00:00:00.000Z","email":"delta@hska.de","homepage":"https://hska.de/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"},{"schlagwoerter":["JAVASCRIPT","TYPESCRIPT"],"autoren":[{"nachname":"Gamma","vorname":"Claus"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Gamma","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2018-02-03T00:00:00.000Z","email":"gamma@hska.com","homepage":"https://hska.com/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"}] {"timestamp":"2018-04-01T10:42:11.035Z"}
+debug: Response time: 9.657838 ms {"timestamp":"2018-04-01T10:42:11.037Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.044Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.044Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.044Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.044Z"}
+debug: > BuchRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.045Z"}
+debug: BuchRequestHandler.find queryParams = {"titel":"XX"} {"timestamp":"2018-04-01T10:42:11.045Z"}
+debug: > BuchService.find(): args = [{"titel":"XX"}] {"timestamp":"2018-04-01T10:42:11.045Z"}
+debug: < BuchService.find(): result = {} {"timestamp":"2018-04-01T10:42:11.046Z"}
+debug: < BuchRequestHandler.find(): result = {} {"timestamp":"2018-04-01T10:42:11.046Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.046Z"}
+debug: BuchRequestHandler.find: buecher = [] {"timestamp":"2018-04-01T10:42:11.047Z"}
+debug: status = 404 {"timestamp":"2018-04-01T10:42:11.047Z"}
+debug: Response time: 4.674296 ms {"timestamp":"2018-04-01T10:42:11.048Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.051Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.051Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.052Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.052Z"}
+debug: > BuchRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.053Z"}
+debug: BuchRequestHandler.find queryParams = {"javascript":"true"} {"timestamp":"2018-04-01T10:42:11.054Z"}
+debug: > BuchService.find(): args = [{"javascript":"true"}] {"timestamp":"2018-04-01T10:42:11.054Z"}
+debug: < BuchService.find(): result = {} {"timestamp":"2018-04-01T10:42:11.054Z"}
+debug: < BuchRequestHandler.find(): result = {} {"timestamp":"2018-04-01T10:42:11.054Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.054Z"}
+debug: BuchRequestHandler.find: buecher = [{"schlagwoerter":["JAVASCRIPT"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"DRUCKAUSGABE","verlag":"IWI_VERLAG","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2018-02-01T00:00:00.000Z","email":"alpha@hska.at","homepage":"https://hska.at/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"},{"schlagwoerter":["JAVASCRIPT","TYPESCRIPT"],"autoren":[{"nachname":"Gamma","vorname":"Claus"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Gamma","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2018-02-03T00:00:00.000Z","email":"gamma@hska.com","homepage":"https://hska.com/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"}] {"timestamp":"2018-04-01T10:42:11.057Z"}
+debug: Response time: 6.5516309999999995 ms {"timestamp":"2018-04-01T10:42:11.058Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.062Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.062Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.062Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.062Z"}
+debug: > BuchRequestHandler.find(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.064Z"}
+debug: BuchRequestHandler.find queryParams = {"csharp":"true"} {"timestamp":"2018-04-01T10:42:11.064Z"}
+debug: > BuchService.find(): args = [{"csharp":"true"}] {"timestamp":"2018-04-01T10:42:11.064Z"}
+debug: < BuchService.find(): result = {} {"timestamp":"2018-04-01T10:42:11.064Z"}
+debug: < BuchRequestHandler.find(): result = {} {"timestamp":"2018-04-01T10:42:11.064Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.064Z"}
+debug: BuchRequestHandler.find: buecher = [] {"timestamp":"2018-04-01T10:42:11.066Z"}
+debug: status = 404 {"timestamp":"2018-04-01T10:42:11.066Z"}
+debug: Response time: 4.834384 ms {"timestamp":"2018-04-01T10:42:11.066Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.073Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "25",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.073Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.073Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.073Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.093Z"}
+debug: > AuthRequestHandler.login(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.094Z"}
+debug: > AuthService.login(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.094Z"}
+debug: body: {"username":"admin","password":"p"} {"timestamp":"2018-04-01T10:42:11.094Z"}
+debug: username: admin {"timestamp":"2018-04-01T10:42:11.095Z"}
+debug: > UsersService.findByUsername(): args = ["admin"] {"timestamp":"2018-04-01T10:42:11.095Z"}
+debug: < UsersService.findByUsername(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.095Z"}
+debug: user: {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.095Z"}
+debug: password: p {"timestamp":"2018-04-01T10:42:11.095Z"}
+debug: > AuthService.checkPassword(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},"p"] {"timestamp":"2018-04-01T10:42:11.095Z"}
+debug: < AuthService.checkPassword(): result = {} {"timestamp":"2018-04-01T10:42:11.096Z"}
+debug: < AuthService.login(): result = {} {"timestamp":"2018-04-01T10:42:11.096Z"}
+debug: < AuthRequestHandler.login(): result = {} {"timestamp":"2018-04-01T10:42:11.096Z"}
+info: Logging durch Winston ist konfiguriert {"timestamp":"2018-04-01T10:42:10.843Z"}
+debug: Upload-Verzeichnis: C:\Users\Bempfer\SWE\swaanka\temp\upload {"timestamp":"2018-04-01T10:42:10.846Z"}
+debug: Download-Verzeichnis: C:\Users\Bempfer\SWE\swaanka\temp\download {"timestamp":"2018-04-01T10:42:10.846Z"}
+info: DB-Verbindung zu hska ist aufgebaut {"timestamp":"2018-04-01T10:42:11.353Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch <Strg>C {"timestamp":"2018-04-01T10:42:11.373Z"}
+debug: result: true {"timestamp":"2018-04-01T10:42:11.473Z"}
+debug: payload: {"iat":1522579331,"iss":"https://hska.de/shop/JuergenZimmermann","sub":"20000000-0000-0000-0000-000000000001","jti":"b381f715-cf66-46f6-9435-b03823b4ea18","exp":1522665731} {"timestamp":"2018-04-01T10:42:11.473Z"}
+debug: Response time: 403.40804699999995 ms {"timestamp":"2018-04-01T10:42:11.476Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.479Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzEsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYjM4MWY3MTUtY2Y2Ni00NmY2LTk0MzUtYjAzODIzYjRlYTE4IiwiZXhwIjoxNTIyNjY1NzMxfQ.cJKu4I0K5SRWSNniTLD49zqQSaZZINBC592J9b9vzFkQmWiBAK_Uz5w0-magxtf5cVLf1r9ei_vEYBuI7tl4GGcIVdvLPK-3sGs9yDXWUTz96efOSD-gdJmayNHGMETFfqKm1-UpSpsTm6Q2eBlCvr539yJcS9_K4YuJ7rJo_aPNfBxmxgaWSEFRXP-HPqslD5r1r3hpXnuXYm1HXu2v3hpmUlVECBfxg6BKoeAJomhJi596LaW50m21WDBIHaCDM9o9f-sTjyxEfVuHT6ruqlf5Hrl63i3tTneieTYrDzrztXKc9lNNxWWoEHiKwb6xtTCFMjlNPNJBiYCziJBhCg",
+  "content-type": "application/json",
+  "content-length": "283",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.480Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.480Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.480Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.481Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.481Z"}
+debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzEsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYjM4MWY3MTUtY2Y2Ni00NmY2LTk0MzUtYjAzODIzYjRlYTE4IiwiZXhwIjoxNTIyNjY1NzMxfQ.cJKu4I0K5SRWSNniTLD49zqQSaZZINBC592J9b9vzFkQmWiBAK_Uz5w0-magxtf5cVLf1r9ei_vEYBuI7tl4GGcIVdvLPK-3sGs9yDXWUTz96efOSD-gdJmayNHGMETFfqKm1-UpSpsTm6Q2eBlCvr539yJcS9_K4YuJ7rJo_aPNfBxmxgaWSEFRXP-HPqslD5r1r3hpXnuXYm1HXu2v3hpmUlVECBfxg6BKoeAJomhJi596LaW50m21WDBIHaCDM9o9f-sTjyxEfVuHT6ruqlf5Hrl63i3tTneieTYrDzrztXKc9lNNxWWoEHiKwb6xtTCFMjlNPNJBiYCziJBhCg {"timestamp":"2018-04-01T10:42:11.482Z"}
+debug: Der JWT-Token wurde decodiert {"timestamp":"2018-04-01T10:42:11.483Z"}
+debug: exp=1522665731 {"timestamp":"2018-04-01T10:42:11.483Z"}
+debug: iss=https://hska.de/shop/JuergenZimmermann {"timestamp":"2018-04-01T10:42:11.483Z"}
+debug: sub=20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:11.483Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:11.483Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.484Z"}
+debug: userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:11.484Z"}
+debug: < AuthService.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.484Z"}
+debug: > SharedRequestHandler.validateMime(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.484Z"}
+debug: > AuthRequestHandler.isAdminMitarbeiter(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.484Z"}
+debug: > AuthRequestHandler.hasRolle(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.484Z"}
+debug: Rollen = ["admin","mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.484Z"}
+debug: > AuthService.isLoggedIn(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.484Z"}
+debug: < AuthService.isLoggedIn(): result = true {"timestamp":"2018-04-01T10:42:11.484Z"}
+debug: > AuthService.hasAnyRole(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.485Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:11.486Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.486Z"}
+debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]] {"timestamp":"2018-04-01T10:42:11.486Z"}
+debug: > RolesService.getNormalizedRole(): args = ["admin"] {"timestamp":"2018-04-01T10:42:11.486Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:11.486Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:11.486Z"}
+debug: < RolesService.getNormalizedRole(): result = "admin" {"timestamp":"2018-04-01T10:42:11.486Z"}
+debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.486Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:11.486Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:11.486Z"}
+debug: < RolesService.getNormalizedRole(): result = "mitarbeiter" {"timestamp":"2018-04-01T10:42:11.486Z"}
+debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.487Z"}
+debug: > AuthService.userHasAnyRole(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]] {"timestamp":"2018-04-01T10:42:11.487Z"}
+debug: < AuthService.userHasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:11.487Z"}
+debug: < AuthService.hasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:11.487Z"}
+debug: < AuthRequestHandler.hasRolle(): result = true {"timestamp":"2018-04-01T10:42:11.487Z"}
+debug: < AuthRequestHandler.isAdminMitarbeiter(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.487Z"}
+debug: < SharedRequestHandler.validateMime(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.487Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.487Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.487Z"}
+debug: > BuchRequestHandler.create(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.488Z"}
+debug: BuchRequestHandler.create post body: {"titel":"Neu","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":99.99,"rabatt":0.099,"lieferbar":true,"datum":"2016-02-28T00:00:00.000Z","email":"theo@test.de","homepage":"https://test.de/","schlagwoerter":["JAVASCRIPT","TYPESCRIPT"],"autoren":[{"nachname":"Test","vorname":"Theo"}]} {"timestamp":"2018-04-01T10:42:11.492Z"}
+debug: > BuchService.create(): args = [{"titel":"Neu","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":99.99,"rabatt":0.099,"lieferbar":true,"datum":"2016-02-28T00:00:00.000Z","email":"theo@test.de","homepage":"https://test.de/","schlagwoerter":["JAVASCRIPT","TYPESCRIPT"],"autoren":[{"nachname":"Test","vorname":"Theo"}]}] {"timestamp":"2018-04-01T10:42:11.492Z"}
+debug: < BuchService.create(): result = {} {"timestamp":"2018-04-01T10:42:11.505Z"}
+debug: < BuchRequestHandler.create(): result = {} {"timestamp":"2018-04-01T10:42:11.505Z"}
+debug: Das Buch ist abgespeichert: {"titel":"Neu","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":99.99,"rabatt":0.099,"lieferbar":true,"datum":"2016-02-28T00:00:00.000Z","email":"theo@test.de","homepage":"https://test.de/","schlagwoerter":["JAVASCRIPT","TYPESCRIPT"],"autoren":[{"nachname":"Test","vorname":"Theo"}],"_id":"169be466-4c13-4c76-a095-ecb075d30bc0","aktualisiert":"2018-04-01T10:42:11.510Z","erzeugt":"2018-04-01T10:42:11.510Z","__v":0} {"timestamp":"2018-04-01T10:42:11.517Z"}
+debug: sendMail wird aufgerufen: joe@doe.mail / Neues Buch 169be466-4c13-4c76-a095-ecb075d30bc0 / Das Buch mit dem Titel <strong>Neu</strong> ist angelegt {"timestamp":"2018-04-01T10:42:11.517Z"}
+debug: sendMail(): {"from":"\"Joe Doe\" <nnvv0011@hs-karlsruhe.de>","to":"joe@doe.mail","subject":"Neues Buch 169be466-4c13-4c76-a095-ecb075d30bc0","html":"Das Buch mit dem Titel <strong>Neu</strong> ist angelegt"} {"timestamp":"2018-04-01T10:42:11.517Z"}
+debug: BuchRequestHandler.create: location = http://127.0.0.1:8443/buecher/169be466-4c13-4c76-a095-ecb075d30bc0 {"timestamp":"2018-04-01T10:42:11.522Z"}
+debug: Response time: 42.977007 ms {"timestamp":"2018-04-01T10:42:11.522Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.527Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzEsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYjM4MWY3MTUtY2Y2Ni00NmY2LTk0MzUtYjAzODIzYjRlYTE4IiwiZXhwIjoxNTIyNjY1NzMxfQ.cJKu4I0K5SRWSNniTLD49zqQSaZZINBC592J9b9vzFkQmWiBAK_Uz5w0-magxtf5cVLf1r9ei_vEYBuI7tl4GGcIVdvLPK-3sGs9yDXWUTz96efOSD-gdJmayNHGMETFfqKm1-UpSpsTm6Q2eBlCvr539yJcS9_K4YuJ7rJo_aPNfBxmxgaWSEFRXP-HPqslD5r1r3hpXnuXYm1HXu2v3hpmUlVECBfxg6BKoeAJomhJi596LaW50m21WDBIHaCDM9o9f-sTjyxEfVuHT6ruqlf5Hrl63i3tTneieTYrDzrztXKc9lNNxWWoEHiKwb6xtTCFMjlNPNJBiYCziJBhCg",
+  "content-type": "application/json",
+  "content-length": "219",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.527Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.527Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.527Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.528Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.528Z"}
+debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzEsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYjM4MWY3MTUtY2Y2Ni00NmY2LTk0MzUtYjAzODIzYjRlYTE4IiwiZXhwIjoxNTIyNjY1NzMxfQ.cJKu4I0K5SRWSNniTLD49zqQSaZZINBC592J9b9vzFkQmWiBAK_Uz5w0-magxtf5cVLf1r9ei_vEYBuI7tl4GGcIVdvLPK-3sGs9yDXWUTz96efOSD-gdJmayNHGMETFfqKm1-UpSpsTm6Q2eBlCvr539yJcS9_K4YuJ7rJo_aPNfBxmxgaWSEFRXP-HPqslD5r1r3hpXnuXYm1HXu2v3hpmUlVECBfxg6BKoeAJomhJi596LaW50m21WDBIHaCDM9o9f-sTjyxEfVuHT6ruqlf5Hrl63i3tTneieTYrDzrztXKc9lNNxWWoEHiKwb6xtTCFMjlNPNJBiYCziJBhCg {"timestamp":"2018-04-01T10:42:11.528Z"}
+debug: Der JWT-Token wurde decodiert {"timestamp":"2018-04-01T10:42:11.528Z"}
+debug: exp=1522665731 {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: iss=https://hska.de/shop/JuergenZimmermann {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: sub=20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < AuthService.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > SharedRequestHandler.validateMime(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > AuthRequestHandler.isAdminMitarbeiter(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > AuthRequestHandler.hasRolle(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: Rollen = ["admin","mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > AuthService.isLoggedIn(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < AuthService.isLoggedIn(): result = true {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > AuthService.hasAnyRole(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]] {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > RolesService.getNormalizedRole(): args = ["admin"] {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < RolesService.getNormalizedRole(): result = "admin" {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < RolesService.getNormalizedRole(): result = "mitarbeiter" {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: > AuthService.userHasAnyRole(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]] {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < AuthService.userHasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < AuthService.hasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < AuthRequestHandler.hasRolle(): result = true {"timestamp":"2018-04-01T10:42:11.529Z"}
+debug: < AuthRequestHandler.isAdminMitarbeiter(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.530Z"}
+debug: < SharedRequestHandler.validateMime(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.530Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.530Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.530Z"}
+debug: > BuchRequestHandler.create(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.530Z"}
+debug: BuchRequestHandler.create post body: {"titel":"Blabla","rating":-1,"art":"UNSICHTBAR","verlag":"NO_VERLAG","preis":0,"rabatt":0,"lieferbar":true,"datum":"2016-02-01T00:00:00.000Z","email":"fromNowhere","autoren":[{"nachname":"Test","vorname":"Theo"}],"schlagwoerter":[]} {"timestamp":"2018-04-01T10:42:11.531Z"}
+debug: > BuchService.create(): args = [{"titel":"Blabla","rating":-1,"art":"UNSICHTBAR","verlag":"NO_VERLAG","preis":0,"rabatt":0,"lieferbar":true,"datum":"2016-02-01T00:00:00.000Z","email":"fromNowhere","autoren":[{"nachname":"Test","vorname":"Theo"}],"schlagwoerter":[]}] {"timestamp":"2018-04-01T10:42:11.531Z"}
+debug: Validation Message: {"art":"Die Art eines Buches muss KINDLE oder DRUCKAUSGABE sein.","rating":"-1 ist keine gueltige Bewertung.","verlag":"Der Verlag eines Buches muss IWI_VERLAG oder HSKA_VERLAG sein.","email":"fromNowhere ist keine gueltige Email-Adresse."} {"timestamp":"2018-04-01T10:42:11.531Z"}
+debug: ValidationError.constructor(): {"art":"Die Art eines Buches muss KINDLE oder DRUCKAUSGABE sein.","rating":"-1 ist keine gueltige Bewertung.","verlag":"Der Verlag eines Buches muss IWI_VERLAG oder HSKA_VERLAG sein.","email":"fromNowhere ist keine gueltige Email-Adresse."} {"timestamp":"2018-04-01T10:42:11.531Z"}
+debug: < BuchService.create(): result = {} {"timestamp":"2018-04-01T10:42:11.531Z"}
+debug: < BuchRequestHandler.create(): result = {} {"timestamp":"2018-04-01T10:42:11.531Z"}
+debug: Response time: 4.76915 ms {"timestamp":"2018-04-01T10:42:11.532Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.534Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzEsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYjM4MWY3MTUtY2Y2Ni00NmY2LTk0MzUtYjAzODIzYjRlYTE4IiwiZXhwIjoxNTIyNjY1NzMxfQ.cJKu4I0K5SRWSNniTLD49zqQSaZZINBC592J9b9vzFkQmWiBAK_Uz5w0-magxtf5cVLf1r9ei_vEYBuI7tl4GGcIVdvLPK-3sGs9yDXWUTz96efOSD-gdJmayNHGMETFfqKm1-UpSpsTm6Q2eBlCvr539yJcS9_K4YuJ7rJo_aPNfBxmxgaWSEFRXP-HPqslD5r1r3hpXnuXYm1HXu2v3hpmUlVECBfxg6BKoeAJomhJi596LaW50m21WDBIHaCDM9o9f-sTjyxEfVuHT6ruqlf5Hrl63i3tTneieTYrDzrztXKc9lNNxWWoEHiKwb6xtTCFMjlNPNJBiYCziJBhCg",
+  "content-type": "application/json",
+  "content-length": "255",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.535Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.535Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.535Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzEsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYjM4MWY3MTUtY2Y2Ni00NmY2LTk0MzUtYjAzODIzYjRlYTE4IiwiZXhwIjoxNTIyNjY1NzMxfQ.cJKu4I0K5SRWSNniTLD49zqQSaZZINBC592J9b9vzFkQmWiBAK_Uz5w0-magxtf5cVLf1r9ei_vEYBuI7tl4GGcIVdvLPK-3sGs9yDXWUTz96efOSD-gdJmayNHGMETFfqKm1-UpSpsTm6Q2eBlCvr539yJcS9_K4YuJ7rJo_aPNfBxmxgaWSEFRXP-HPqslD5r1r3hpXnuXYm1HXu2v3hpmUlVECBfxg6BKoeAJomhJi596LaW50m21WDBIHaCDM9o9f-sTjyxEfVuHT6ruqlf5Hrl63i3tTneieTYrDzrztXKc9lNNxWWoEHiKwb6xtTCFMjlNPNJBiYCziJBhCg {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: Der JWT-Token wurde decodiert {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: exp=1522665731 {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: iss=https://hska.de/shop/JuergenZimmermann {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: sub=20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: < AuthService.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > SharedRequestHandler.validateMime(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > AuthRequestHandler.isAdminMitarbeiter(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > AuthRequestHandler.hasRolle(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: Rollen = ["admin","mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > AuthService.isLoggedIn(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: < AuthService.isLoggedIn(): result = true {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > AuthService.hasAnyRole(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]] {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > RolesService.getNormalizedRole(): args = ["admin"] {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: < RolesService.getNormalizedRole(): result = "admin" {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: < RolesService.getNormalizedRole(): result = "mitarbeiter" {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: > AuthService.userHasAnyRole(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]] {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: < AuthService.userHasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: < AuthService.hasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:11.537Z"}
+debug: < AuthRequestHandler.hasRolle(): result = true {"timestamp":"2018-04-01T10:42:11.538Z"}
+debug: < AuthRequestHandler.isAdminMitarbeiter(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.538Z"}
+debug: < SharedRequestHandler.validateMime(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.538Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.538Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.538Z"}
+debug: > BuchRequestHandler.create(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.540Z"}
+debug: BuchRequestHandler.create post body: {"titel":"Alpha","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":99.99,"rabatt":0.099,"lieferbar":true,"datum":"2016-02-28T00:00:00.000Z","email":"theo@test.de","autoren":[{"nachname":"Test","vorname":"Theo"}],"schlagwoerter":["JAVASCRIPT","TYPESCRIPT"]} {"timestamp":"2018-04-01T10:42:11.540Z"}
+debug: > BuchService.create(): args = [{"titel":"Alpha","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":99.99,"rabatt":0.099,"lieferbar":true,"datum":"2016-02-28T00:00:00.000Z","email":"theo@test.de","autoren":[{"nachname":"Test","vorname":"Theo"}],"schlagwoerter":["JAVASCRIPT","TYPESCRIPT"]}] {"timestamp":"2018-04-01T10:42:11.541Z"}
+debug: < BuchService.create(): result = {} {"timestamp":"2018-04-01T10:42:11.541Z"}
+debug: < BuchRequestHandler.create(): result = {} {"timestamp":"2018-04-01T10:42:11.541Z"}
+debug: TitelExistsError.constructor(): Der Titel "Alpha" existiert bereits. {"timestamp":"2018-04-01T10:42:11.543Z"}
+debug: Response time: 7.542838 ms {"timestamp":"2018-04-01T10:42:11.543Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.546Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/json",
+  "content-length": "283",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.547Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.547Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.547Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.548Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.548Z"}
+debug: Kein Header-Field Authorization {"timestamp":"2018-04-01T10:42:11.548Z"}
+debug: AuthorizationInvalidError.constructor() {"timestamp":"2018-04-01T10:42:11.548Z"}
+debug: 401: AuthorizationInvalidError, Kein Header-Field Authorization {"timestamp":"2018-04-01T10:42:11.548Z"}
+debug: Response time: 1.740519 ms {"timestamp":"2018-04-01T10:42:11.548Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.548Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.548Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.551Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "authorization": "Bearer x",
+  "content-type": "application/json",
+  "content-length": "283",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.551Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.551Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.551Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.552Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.552Z"}
+debug: Authorization = Bearer x {"timestamp":"2018-04-01T10:42:11.552Z"}
+debug: Der Token besteht nicht aus 3 Teilen. {"timestamp":"2018-04-01T10:42:11.553Z"}
+debug: TokenInvalidError.constructor() {"timestamp":"2018-04-01T10:42:11.553Z"}
+debug: 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen. {"timestamp":"2018-04-01T10:42:11.553Z"}
+debug: Response time: 1.93728 ms {"timestamp":"2018-04-01T10:42:11.553Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.553Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.553Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.559Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "25",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.559Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.559Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.559Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.561Z"}
+debug: > AuthRequestHandler.login(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.561Z"}
+debug: > AuthService.login(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.562Z"}
+debug: body: {"username":"admin","password":"p"} {"timestamp":"2018-04-01T10:42:11.562Z"}
+debug: username: admin {"timestamp":"2018-04-01T10:42:11.562Z"}
+debug: > UsersService.findByUsername(): args = ["admin"] {"timestamp":"2018-04-01T10:42:11.562Z"}
+debug: < UsersService.findByUsername(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.562Z"}
+debug: user: {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.562Z"}
+debug: password: p {"timestamp":"2018-04-01T10:42:11.562Z"}
+debug: > AuthService.checkPassword(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},"p"] {"timestamp":"2018-04-01T10:42:11.562Z"}
+debug: < AuthService.checkPassword(): result = {} {"timestamp":"2018-04-01T10:42:11.562Z"}
+debug: < AuthService.login(): result = {} {"timestamp":"2018-04-01T10:42:11.562Z"}
+debug: < AuthRequestHandler.login(): result = {} {"timestamp":"2018-04-01T10:42:11.562Z"}
+debug: result: true {"timestamp":"2018-04-01T10:42:11.912Z"}
+debug: payload: {"iat":1522579331,"iss":"https://hska.de/shop/JuergenZimmermann","sub":"20000000-0000-0000-0000-000000000001","jti":"2db4451a-36ee-4d77-bdc7-e319940a6da1","exp":1522665731} {"timestamp":"2018-04-01T10:42:11.912Z"}
+debug: Response time: 357.906651 ms {"timestamp":"2018-04-01T10:42:11.916Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.921Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzEsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiMmRiNDQ1MWEtMzZlZS00ZDc3LWJkYzctZTMxOTk0MGE2ZGExIiwiZXhwIjoxNTIyNjY1NzMxfQ.RZ0N74ZtVsNUF7j1ucdjErrAsJkBe4ZM9mg_1sPSXT_W9v6DKJVxJZ-k5rhTi_XN_O7iAIAzKeKdl-ymzeXsnDFqDjvAo6CGj8F-H6H701ejWEBc6yQhJ1agepKhM1di9Nk7yUs5K-iC8o8VuaaypBZhaqSmOd6L7kb0S19nDO2qmAWIr9o8Cw2G9ldsDxD6zWe56hecU9ese8DgxZv6uwiCm00QjDC2qCMH3_lUmHETYZdLNm5yjDSK1K7QuMJqAUz-jgHEw_zvprJpFyBpQJQoPdIsn5HjMwHMRKSn6UKa-RTbWq0K3xRNBEj8hHq0reeWIpEKSDhNX1hsPrclcQ",
+  "if-match": "0",
+  "content-type": "application/json",
+  "content-length": "267",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.922Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.922Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.922Z"}
+debug: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.931Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.931Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.931Z"}
+debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzEsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiMmRiNDQ1MWEtMzZlZS00ZDc3LWJkYzctZTMxOTk0MGE2ZGExIiwiZXhwIjoxNTIyNjY1NzMxfQ.RZ0N74ZtVsNUF7j1ucdjErrAsJkBe4ZM9mg_1sPSXT_W9v6DKJVxJZ-k5rhTi_XN_O7iAIAzKeKdl-ymzeXsnDFqDjvAo6CGj8F-H6H701ejWEBc6yQhJ1agepKhM1di9Nk7yUs5K-iC8o8VuaaypBZhaqSmOd6L7kb0S19nDO2qmAWIr9o8Cw2G9ldsDxD6zWe56hecU9ese8DgxZv6uwiCm00QjDC2qCMH3_lUmHETYZdLNm5yjDSK1K7QuMJqAUz-jgHEw_zvprJpFyBpQJQoPdIsn5HjMwHMRKSn6UKa-RTbWq0K3xRNBEj8hHq0reeWIpEKSDhNX1hsPrclcQ {"timestamp":"2018-04-01T10:42:11.931Z"}
+debug: Der JWT-Token wurde decodiert {"timestamp":"2018-04-01T10:42:11.931Z"}
+debug: exp=1522665731 {"timestamp":"2018-04-01T10:42:11.931Z"}
+debug: iss=https://hska.de/shop/JuergenZimmermann {"timestamp":"2018-04-01T10:42:11.931Z"}
+debug: sub=20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: < AuthService.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: > SharedRequestHandler.validateMime(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: > AuthRequestHandler.isAdminMitarbeiter(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: > AuthRequestHandler.hasRolle(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: Rollen = ["admin","mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: > AuthService.isLoggedIn(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: < AuthService.isLoggedIn(): result = true {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: > AuthService.hasAnyRole(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]] {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: > RolesService.getNormalizedRole(): args = ["admin"] {"timestamp":"2018-04-01T10:42:11.932Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:11.933Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:11.933Z"}
+debug: < RolesService.getNormalizedRole(): result = "admin" {"timestamp":"2018-04-01T10:42:11.933Z"}
+debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.933Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:11.933Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:11.933Z"}
+debug: < RolesService.getNormalizedRole(): result = "mitarbeiter" {"timestamp":"2018-04-01T10:42:11.933Z"}
+debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.933Z"}
+debug: > AuthService.userHasAnyRole(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]] {"timestamp":"2018-04-01T10:42:11.934Z"}
+debug: < AuthService.userHasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:11.935Z"}
+debug: < AuthService.hasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:11.935Z"}
+debug: < AuthRequestHandler.hasRolle(): result = true {"timestamp":"2018-04-01T10:42:11.935Z"}
+debug: < AuthRequestHandler.isAdminMitarbeiter(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.935Z"}
+debug: < SharedRequestHandler.validateMime(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.935Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.935Z"}
+debug: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.935Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.935Z"}
+debug: > BuchRequestHandler.update(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.936Z"}
+debug: BuchRequestHandler.update id = 00000000-0000-0000-0000-000000000003 {"timestamp":"2018-04-01T10:42:11.937Z"}
+debug: BuchRequestHandler.update versionHeader: 0 {"timestamp":"2018-04-01T10:42:11.937Z"}
+debug: BuchRequestHandler.update buch: {"titel":"Geaendert","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.33,"rabatt":0.033,"lieferbar":true,"datum":"2016-02-03T00:00:00.000Z","homepage":"https://test.te","autoren":[{"nachname":"Gamma","vorname":"Claus"}],"schlagwoerter":["JAVASCRIPT","TYPESCRIPT"],"_id":"00000000-0000-0000-0000-000000000003"} {"timestamp":"2018-04-01T10:42:11.937Z"}
+debug: > BuchService.update(): args = [{"titel":"Geaendert","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.33,"rabatt":0.033,"lieferbar":true,"datum":"2016-02-03T00:00:00.000Z","homepage":"https://test.te","autoren":[{"nachname":"Gamma","vorname":"Claus"}],"schlagwoerter":["JAVASCRIPT","TYPESCRIPT"],"_id":"00000000-0000-0000-0000-000000000003"},"0"] {"timestamp":"2018-04-01T10:42:11.938Z"}
+debug: < BuchService.update(): result = {} {"timestamp":"2018-04-01T10:42:11.938Z"}
+debug: < BuchRequestHandler.update(): result = {} {"timestamp":"2018-04-01T10:42:11.938Z"}
+debug: buch: {"titel":"Geaendert","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.33,"rabatt":0.033,"lieferbar":true,"datum":"2016-02-03T00:00:00.000Z","homepage":"https://test.te","autoren":[{"nachname":"Gamma","vorname":"Claus"}],"schlagwoerter":["JAVASCRIPT","TYPESCRIPT"],"_id":"00000000-0000-0000-0000-000000000003"} / version: 0 {"timestamp":"2018-04-01T10:42:11.942Z"}
+debug: Response time: 48.872769999999996 ms {"timestamp":"2018-04-01T10:42:11.970Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.975Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzEsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiMmRiNDQ1MWEtMzZlZS00ZDc3LWJkYzctZTMxOTk0MGE2ZGExIiwiZXhwIjoxNTIyNjY1NzMxfQ.RZ0N74ZtVsNUF7j1ucdjErrAsJkBe4ZM9mg_1sPSXT_W9v6DKJVxJZ-k5rhTi_XN_O7iAIAzKeKdl-ymzeXsnDFqDjvAo6CGj8F-H6H701ejWEBc6yQhJ1agepKhM1di9Nk7yUs5K-iC8o8VuaaypBZhaqSmOd6L7kb0S19nDO2qmAWIr9o8Cw2G9ldsDxD6zWe56hecU9ese8DgxZv6uwiCm00QjDC2qCMH3_lUmHETYZdLNm5yjDSK1K7QuMJqAUz-jgHEw_zvprJpFyBpQJQoPdIsn5HjMwHMRKSn6UKa-RTbWq0K3xRNBEj8hHq0reeWIpEKSDhNX1hsPrclcQ",
+  "if-match": "0",
+  "content-type": "application/json",
+  "content-length": "243",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:11.976Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:11.976Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:11.976Z"}
+debug: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.978Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.978Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.978Z"}
+debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzEsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiMmRiNDQ1MWEtMzZlZS00ZDc3LWJkYzctZTMxOTk0MGE2ZGExIiwiZXhwIjoxNTIyNjY1NzMxfQ.RZ0N74ZtVsNUF7j1ucdjErrAsJkBe4ZM9mg_1sPSXT_W9v6DKJVxJZ-k5rhTi_XN_O7iAIAzKeKdl-ymzeXsnDFqDjvAo6CGj8F-H6H701ejWEBc6yQhJ1agepKhM1di9Nk7yUs5K-iC8o8VuaaypBZhaqSmOd6L7kb0S19nDO2qmAWIr9o8Cw2G9ldsDxD6zWe56hecU9ese8DgxZv6uwiCm00QjDC2qCMH3_lUmHETYZdLNm5yjDSK1K7QuMJqAUz-jgHEw_zvprJpFyBpQJQoPdIsn5HjMwHMRKSn6UKa-RTbWq0K3xRNBEj8hHq0reeWIpEKSDhNX1hsPrclcQ {"timestamp":"2018-04-01T10:42:11.978Z"}
+debug: Der JWT-Token wurde decodiert {"timestamp":"2018-04-01T10:42:11.978Z"}
+debug: exp=1522665731 {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: iss=https://hska.de/shop/JuergenZimmermann {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: sub=20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: < AuthService.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: > SharedRequestHandler.validateMime(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: > AuthRequestHandler.isAdminMitarbeiter(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: > AuthRequestHandler.hasRolle(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: Rollen = ["admin","mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: > AuthService.isLoggedIn(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: < AuthService.isLoggedIn(): result = true {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: > AuthService.hasAnyRole(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:11.979Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]] {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: > RolesService.getNormalizedRole(): args = ["admin"] {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: < RolesService.getNormalizedRole(): result = "admin" {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: < RolesService.getNormalizedRole(): result = "mitarbeiter" {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"] {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: > AuthService.userHasAnyRole(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]] {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: < AuthService.userHasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: < AuthService.hasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: < AuthRequestHandler.hasRolle(): result = true {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: < AuthRequestHandler.isAdminMitarbeiter(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: < SharedRequestHandler.validateMime(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.980Z"}
+debug: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.981Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:11.981Z"}
+debug: > BuchRequestHandler.update(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.984Z"}
+debug: BuchRequestHandler.update id = 00000000-0000-0000-0000-000000000999 {"timestamp":"2018-04-01T10:42:11.984Z"}
+debug: BuchRequestHandler.update versionHeader: 0 {"timestamp":"2018-04-01T10:42:11.984Z"}
+debug: BuchRequestHandler.update buch: {"titel":"Nichtvorhanden","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.33,"rabatt":0.033,"lieferbar":true,"datum":"2016-02-03T00:00:00.000Z","autoren":[{"nachname":"Gamma","vorname":"Claus"}],"schlagwoerter":["JAVASCRIPT","TYPESCRIPT"],"_id":"00000000-0000-0000-0000-000000000999"} {"timestamp":"2018-04-01T10:42:11.985Z"}
+debug: > BuchService.update(): args = [{"titel":"Nichtvorhanden","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.33,"rabatt":0.033,"lieferbar":true,"datum":"2016-02-03T00:00:00.000Z","autoren":[{"nachname":"Gamma","vorname":"Claus"}],"schlagwoerter":["JAVASCRIPT","TYPESCRIPT"],"_id":"00000000-0000-0000-0000-000000000999"},"0"] {"timestamp":"2018-04-01T10:42:11.985Z"}
+debug: < BuchService.update(): result = {} {"timestamp":"2018-04-01T10:42:11.985Z"}
+debug: < BuchRequestHandler.update(): result = {} {"timestamp":"2018-04-01T10:42:11.985Z"}
+debug: buch: {"titel":"Nichtvorhanden","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.33,"rabatt":0.033,"lieferbar":true,"datum":"2016-02-03T00:00:00.000Z","autoren":[{"nachname":"Gamma","vorname":"Claus"}],"schlagwoerter":["JAVASCRIPT","TYPESCRIPT"],"_id":"00000000-0000-0000-0000-000000000999"} / version: 0 {"timestamp":"2018-04-01T10:42:11.988Z"}
+debug: VersionInvalidError.constructor(): Es gibt kein Buch mit ID 00000000-0000-0000-0000-000000000999 und Version 0 {"timestamp":"2018-04-01T10:42:11.995Z"}
+debug: BuchRequestHandler.update status = 412, message: Es gibt kein Buch mit ID 00000000-0000-0000-0000-000000000999 und Version 0 {"timestamp":"2018-04-01T10:42:11.995Z"}
+debug: Response time: 19.686629 ms {"timestamp":"2018-04-01T10:42:11.995Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:11.999Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzEsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiMmRiNDQ1MWEtMzZlZS00ZDc3LWJkYzctZTMxOTk0MGE2ZGExIiwiZXhwIjoxNTIyNjY1NzMxfQ.RZ0N74ZtVsNUF7j1ucdjErrAsJkBe4ZM9mg_1sPSXT_W9v6DKJVxJZ-k5rhTi_XN_O7iAIAzKeKdl-ymzeXsnDFqDjvAo6CGj8F-H6H701ejWEBc6yQhJ1agepKhM1di9Nk7yUs5K-iC8o8VuaaypBZhaqSmOd6L7kb0S19nDO2qmAWIr9o8Cw2G9ldsDxD6zWe56hecU9ese8DgxZv6uwiCm00QjDC2qCMH3_lUmHETYZdLNm5yjDSK1K7QuMJqAUz-jgHEw_zvprJpFyBpQJQoPdIsn5HjMwHMRKSn6UKa-RTbWq0K3xRNBEj8hHq0reeWIpEKSDhNX1hsPrclcQ",
+  "if-match": "0",
+  "content-type": "application/json",
+  "content-length": "221",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:12.000Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:12.000Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:12.000Z"}
+debug: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.001Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.001Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.001Z"}
+debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzEsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiMmRiNDQ1MWEtMzZlZS00ZDc3LWJkYzctZTMxOTk0MGE2ZGExIiwiZXhwIjoxNTIyNjY1NzMxfQ.RZ0N74ZtVsNUF7j1ucdjErrAsJkBe4ZM9mg_1sPSXT_W9v6DKJVxJZ-k5rhTi_XN_O7iAIAzKeKdl-ymzeXsnDFqDjvAo6CGj8F-H6H701ejWEBc6yQhJ1agepKhM1di9Nk7yUs5K-iC8o8VuaaypBZhaqSmOd6L7kb0S19nDO2qmAWIr9o8Cw2G9ldsDxD6zWe56hecU9ese8DgxZv6uwiCm00QjDC2qCMH3_lUmHETYZdLNm5yjDSK1K7QuMJqAUz-jgHEw_zvprJpFyBpQJQoPdIsn5HjMwHMRKSn6UKa-RTbWq0K3xRNBEj8hHq0reeWIpEKSDhNX1hsPrclcQ {"timestamp":"2018-04-01T10:42:12.001Z"}
+debug: Der JWT-Token wurde decodiert {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: exp=1522665731 {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: iss=https://hska.de/shop/JuergenZimmermann {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: sub=20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: < AuthService.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: > SharedRequestHandler.validateMime(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: > AuthRequestHandler.isAdminMitarbeiter(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: > AuthRequestHandler.hasRolle(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: Rollen = ["admin","mitarbeiter"] {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: > AuthService.isLoggedIn(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: < AuthService.isLoggedIn(): result = true {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: > AuthService.hasAnyRole(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]] {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: > RolesService.getNormalizedRole(): args = ["admin"] {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: < RolesService.getNormalizedRole(): result = "admin" {"timestamp":"2018-04-01T10:42:12.002Z"}
+debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"] {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: < RolesService.getNormalizedRole(): result = "mitarbeiter" {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"] {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: > AuthService.userHasAnyRole(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]] {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: < AuthService.userHasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: < AuthService.hasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: < AuthRequestHandler.hasRolle(): result = true {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: < AuthRequestHandler.isAdminMitarbeiter(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: < SharedRequestHandler.validateMime(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: > BuchRequestHandler.update(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: BuchRequestHandler.update id = 00000000-0000-0000-0000-000000000003 {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: BuchRequestHandler.update versionHeader: 0 {"timestamp":"2018-04-01T10:42:12.003Z"}
+debug: BuchRequestHandler.update buch: {"titel":"Alpha","rating":-1,"art":"UNSICHTBAR","verlag":"NO_VERLAG","preis":0.01,"rabatt":0,"lieferbar":true,"datum":"2016-02-01T00:00:00.000Z","email":"fromNowhere","autoren":[{"nachname":"Test","vorname":"Theo"}],"schlagwoerter":[],"_id":"00000000-0000-0000-0000-000000000003"} {"timestamp":"2018-04-01T10:42:12.004Z"}
+debug: > BuchService.update(): args = [{"titel":"Alpha","rating":-1,"art":"UNSICHTBAR","verlag":"NO_VERLAG","preis":0.01,"rabatt":0,"lieferbar":true,"datum":"2016-02-01T00:00:00.000Z","email":"fromNowhere","autoren":[{"nachname":"Test","vorname":"Theo"}],"schlagwoerter":[],"_id":"00000000-0000-0000-0000-000000000003"},"0"] {"timestamp":"2018-04-01T10:42:12.004Z"}
+debug: Validation Message: {"art":"Die Art eines Buches muss KINDLE oder DRUCKAUSGABE sein.","rating":"-1 ist keine gueltige Bewertung.","verlag":"Der Verlag eines Buches muss IWI_VERLAG oder HSKA_VERLAG sein.","email":"fromNowhere ist keine gueltige Email-Adresse."} {"timestamp":"2018-04-01T10:42:12.004Z"}
+debug: ValidationError.constructor(): {"art":"Die Art eines Buches muss KINDLE oder DRUCKAUSGABE sein.","rating":"-1 ist keine gueltige Bewertung.","verlag":"Der Verlag eines Buches muss IWI_VERLAG oder HSKA_VERLAG sein.","email":"fromNowhere ist keine gueltige Email-Adresse."} {"timestamp":"2018-04-01T10:42:12.004Z"}
+debug: < BuchService.update(): result = {} {"timestamp":"2018-04-01T10:42:12.004Z"}
+debug: < BuchRequestHandler.update(): result = {} {"timestamp":"2018-04-01T10:42:12.004Z"}
+debug: Response time: 4.93488 ms {"timestamp":"2018-04-01T10:42:12.004Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.008Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "if-match": "0",
+  "content-type": "application/json",
+  "content-length": "267",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:12.008Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:12.008Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:12.008Z"}
+debug: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.010Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.010Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.010Z"}
+debug: Kein Header-Field Authorization {"timestamp":"2018-04-01T10:42:12.010Z"}
+debug: AuthorizationInvalidError.constructor() {"timestamp":"2018-04-01T10:42:12.010Z"}
+debug: 401: AuthorizationInvalidError, Kein Header-Field Authorization {"timestamp":"2018-04-01T10:42:12.010Z"}
+debug: Response time: 2.451748 ms {"timestamp":"2018-04-01T10:42:12.011Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.011Z"}
+debug: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.011Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.011Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.014Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "authorization": "Bearer x",
+  "if-match": "0",
+  "content-type": "application/json",
+  "content-length": "267",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:12.014Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:12.015Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:12.015Z"}
+debug: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.015Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.016Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.016Z"}
+debug: Authorization = Bearer x {"timestamp":"2018-04-01T10:42:12.016Z"}
+debug: Der Token besteht nicht aus 3 Teilen. {"timestamp":"2018-04-01T10:42:12.016Z"}
+debug: TokenInvalidError.constructor() {"timestamp":"2018-04-01T10:42:12.016Z"}
+debug: 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen. {"timestamp":"2018-04-01T10:42:12.016Z"}
+debug: Response time: 1.5427009999999999 ms {"timestamp":"2018-04-01T10:42:12.016Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.016Z"}
+debug: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.016Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.016Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.022Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "25",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:12.022Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:12.022Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:12.022Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.024Z"}
+debug: > AuthRequestHandler.login(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.024Z"}
+debug: > AuthService.login(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.024Z"}
+debug: body: {"username":"admin","password":"p"} {"timestamp":"2018-04-01T10:42:12.024Z"}
+debug: username: admin {"timestamp":"2018-04-01T10:42:12.024Z"}
+debug: > UsersService.findByUsername(): args = ["admin"] {"timestamp":"2018-04-01T10:42:12.024Z"}
+debug: < UsersService.findByUsername(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:12.024Z"}
+debug: user: {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:12.025Z"}
+debug: password: p {"timestamp":"2018-04-01T10:42:12.025Z"}
+debug: > AuthService.checkPassword(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},"p"] {"timestamp":"2018-04-01T10:42:12.026Z"}
+debug: < AuthService.checkPassword(): result = {} {"timestamp":"2018-04-01T10:42:12.026Z"}
+debug: < AuthService.login(): result = {} {"timestamp":"2018-04-01T10:42:12.026Z"}
+debug: < AuthRequestHandler.login(): result = {} {"timestamp":"2018-04-01T10:42:12.026Z"}
+debug: result: true {"timestamp":"2018-04-01T10:42:12.373Z"}
+debug: payload: {"iat":1522579332,"iss":"https://hska.de/shop/JuergenZimmermann","sub":"20000000-0000-0000-0000-000000000001","jti":"68bb2af0-16ae-48e9-bfca-adfc9d8537f5","exp":1522665732} {"timestamp":"2018-04-01T10:42:12.373Z"}
+debug: Response time: 353.47601499999996 ms {"timestamp":"2018-04-01T10:42:12.375Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.379Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiNjhiYjJhZjAtMTZhZS00OGU5LWJmY2EtYWRmYzlkODUzN2Y1IiwiZXhwIjoxNTIyNjY1NzMyfQ.FzP4uLUvKAkWLMYhAdIpYc-zeKVtO9lwu-h2Pao5cqUUP1zrSRoq8w8jCopEbfaY-kJ31xguswJS9ASLzlMmIv6r-29mmlp-STn4gDus-btfQR1bkTyBC5Z_Eq_I6JhIIE5C21tlIkXqrUCjWzGsA2x4I1WMXrZaQ46adAHdnRwyx8NIqHe55ssPJLI9hU4t9h62JubzS6elEgn5kF6QvnH51dhoaIjTkSwUTVbsp1HUHKTz1aBmUb2mudN7B8A2BnpJ51Zfo04cBuqunE8e8J7pQWY6Vk3HK9aUW16G6bXJnwsATsyxsI74Yndq4EMDjNkuuWh5ML6PJNOqcylGwQ",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:12.379Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:12.380Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:12.380Z"}
+debug: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.381Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.382Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.382Z"}
+debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjI1NzkzMzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiNjhiYjJhZjAtMTZhZS00OGU5LWJmY2EtYWRmYzlkODUzN2Y1IiwiZXhwIjoxNTIyNjY1NzMyfQ.FzP4uLUvKAkWLMYhAdIpYc-zeKVtO9lwu-h2Pao5cqUUP1zrSRoq8w8jCopEbfaY-kJ31xguswJS9ASLzlMmIv6r-29mmlp-STn4gDus-btfQR1bkTyBC5Z_Eq_I6JhIIE5C21tlIkXqrUCjWzGsA2x4I1WMXrZaQ46adAHdnRwyx8NIqHe55ssPJLI9hU4t9h62JubzS6elEgn5kF6QvnH51dhoaIjTkSwUTVbsp1HUHKTz1aBmUb2mudN7B8A2BnpJ51Zfo04cBuqunE8e8J7pQWY6Vk3HK9aUW16G6bXJnwsATsyxsI74Yndq4EMDjNkuuWh5ML6PJNOqcylGwQ {"timestamp":"2018-04-01T10:42:12.383Z"}
+debug: Der JWT-Token wurde decodiert {"timestamp":"2018-04-01T10:42:12.383Z"}
+debug: exp=1522665732 {"timestamp":"2018-04-01T10:42:12.383Z"}
+debug: iss=https://hska.de/shop/JuergenZimmermann {"timestamp":"2018-04-01T10:42:12.383Z"}
+debug: sub=20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:12.383Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:12.383Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:12.383Z"}
+debug: userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2018-04-01T10:42:12.383Z"}
+debug: < AuthService.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.383Z"}
+debug: > AuthRequestHandler.isAdmin(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: > AuthRequestHandler.hasRolle(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: Rollen = ["admin"] {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: > AuthService.isLoggedIn(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: < AuthService.isLoggedIn(): result = true {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: > AuthService.hasAnyRole(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: > UsersService.findById(): args = ["20000000-0000-0000-0000-000000000001"] {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: < UsersService.findById(): result = {"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: > RolesService.getNormalizedRoles(): args = [["admin"]] {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: > RolesService.getNormalizedRole(): args = ["admin"] {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: > RolesService.findAllRoles() {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"] {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: < RolesService.getNormalizedRole(): result = "admin" {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: < RolesService.getNormalizedRoles(): result = ["admin"] {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: > AuthService.userHasAnyRole(): args = [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin"]] {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: < AuthService.userHasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: < AuthService.hasAnyRole(): result = true {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: < AuthRequestHandler.hasRolle(): result = true {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: > BuchRequestHandler.delete(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.384Z"}
+debug: BuchRequestHandler.delete id = 00000000-0000-0000-0000-000000000005 {"timestamp":"2018-04-01T10:42:12.385Z"}
+debug: > BuchService.remove(): args = ["00000000-0000-0000-0000-000000000005"] {"timestamp":"2018-04-01T10:42:12.385Z"}
+debug: < BuchService.remove(): result = {} {"timestamp":"2018-04-01T10:42:12.386Z"}
+debug: < BuchRequestHandler.delete(): result = {} {"timestamp":"2018-04-01T10:42:12.386Z"}
+debug: < AuthRequestHandler.isAdmin(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.386Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.386Z"}
+debug: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.386Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.386Z"}
+debug: Response time: 7.702573999999999 ms {"timestamp":"2018-04-01T10:42:12.387Z"}
+debug: Geloescht: {"schlagwoerter":["TYPESCRIPT"],"autoren":[{"nachname":"Epsilon","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Epsilon","rating":2,"art":"KINDLE","verlag":"HSKA_VERLAG","preis":55.5,"rabatt":0.055,"lieferbar":true,"datum":"2018-02-05T00:00:00.000Z","email":"epsilon@hska.es","homepage":"https://hska.es/","__v":0,"erzeugt":"2018-02-01T00:00:00.000Z","aktualisiert":"2018-02-01T00:00:00.000Z"} {"timestamp":"2018-04-01T10:42:12.392Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.395Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:12.395Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:12.395Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:12.395Z"}
+debug: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.397Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.397Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.397Z"}
+debug: Kein Header-Field Authorization {"timestamp":"2018-04-01T10:42:12.397Z"}
+debug: AuthorizationInvalidError.constructor() {"timestamp":"2018-04-01T10:42:12.397Z"}
+debug: 401: AuthorizationInvalidError, Kein Header-Field Authorization {"timestamp":"2018-04-01T10:42:12.397Z"}
+debug: Response time: 2.4358809999999997 ms {"timestamp":"2018-04-01T10:42:12.397Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.397Z"}
+debug: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.398Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.398Z"}
+debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.400Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:54783",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "authorization": "Bearer x",
+  "connection": "close"
+} {"timestamp":"2018-04-01T10:42:12.401Z"}
+debug: Request: protocol="http" {"timestamp":"2018-04-01T10:42:12.401Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2018-04-01T10:42:12.401Z"}
+debug: > SharedRequestHandler.validateUUID(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.402Z"}
+debug: > AuthRequestHandler.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.402Z"}
+debug: > AuthService.validateJwt(): args = <RequestResponse> {"timestamp":"2018-04-01T10:42:12.402Z"}
+debug: Authorization = Bearer x {"timestamp":"2018-04-01T10:42:12.402Z"}
+debug: Der Token besteht nicht aus 3 Teilen. {"timestamp":"2018-04-01T10:42:12.402Z"}
+debug: TokenInvalidError.constructor() {"timestamp":"2018-04-01T10:42:12.402Z"}
+debug: 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen. {"timestamp":"2018-04-01T10:42:12.402Z"}
+debug: Response time: 1.745456 ms {"timestamp":"2018-04-01T10:42:12.402Z"}
+debug: < AuthRequestHandler.validateJwt(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.402Z"}
+debug: < SharedRequestHandler.validateUUID(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.402Z"}
+debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined {"timestamp":"2018-04-01T10:42:12.402Z"}
+info: Server wird heruntergefahren... {"timestamp":"2018-04-01T10:42:55.975Z"}
